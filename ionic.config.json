@@ -1,0 +1,7 @@
+{
+  "name": "water-system-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
