@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Dashboard</ion-title>
+        <ion-avatar slot="end">
+            <img src="https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-1/p100x100/241439838_4465586350227792_3670855029139333701_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=7206a8&_nc_ohc=lqD4hS-c1O4AX_Y2yHi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent-xsp1-3.xx&oh=bf8f060cb6ededc794279164509bf4cc&oe=61804851">
+        </ion-avatar>
+    </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <section id="search-wrapper">
+        <div class="content">
+            <ion-searchbar animated></ion-searchbar>
+        </div>
+    </section>
+    <section id="dashboard-content">
+        <ion-card>
+            <ion-card-content>
+                <ion-img src="https://e7.pngegg.com/pngimages/725/706/png-clipart-drinking-water-mineral-water-bottles-mineral-water.png"></ion-img>
+                <ion-grid>
+                    <ion-row>
+                        <h1>Product Name Kens</h1>
+                        <p>This is short description of product</p>
+                        <ion-button fill="solid" shape="round">
+                            <ion-icon slot="start" name="add-circle-outline"></ion-icon>
+                            Add to cart
+                        </ion-button>
+                    </ion-row>
+                </ion-grid>
+            </ion-card-content>
+        </ion-card>
+    </section>
+</ion-content>
+
+<ion-tabs>
+    <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="home-tab" class="active">
+            <ion-icon name="home"></ion-icon>
+            <ion-label>Home</ion-label>
+        </ion-tab-button>
+        <ion-tab-button tab="home-tab">
+            <ion-icon name="grid"></ion-icon>
+        </ion-tab-button>
+        <ion-tab-button tab="home-tab">
+            <ion-icon name="cart"></ion-icon>
+            <ion-label>Cart</ion-label>
+        </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>

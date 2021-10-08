@@ -1,0 +1,26 @@
+ion-avatar {
+    margin: 2%;
+    height: 40px;
+    width: 40px;
+}
+
+ion-card-content {
+    display: flex;
+}
+
+ion-tab-bar {
+    --border: none;
+    --background: #363636;
+    margin: 16px 20px;
+    padding: 10px 0px;
+    border-radius: 14px;
+    box-shadow: 0 3px 6px 0px rgba(0, 0, 0, .04), 0 1px 3px 0px rgba(0, 0, 0, .02);
+}
+
+ion-tab-button.ion-activated {
+    color: #fff;
+}
+
+ion-tab-button:not(:first-child):not(:last-child) ion-icon {
+    border-radius: 50px;
+}
